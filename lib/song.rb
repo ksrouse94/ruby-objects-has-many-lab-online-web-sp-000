@@ -7,7 +7,7 @@ class Song
     @name = name
   end
   
-  def nrew 
+  def save
     @@all << self
   end
   
