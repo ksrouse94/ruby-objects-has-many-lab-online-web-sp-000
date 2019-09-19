@@ -17,4 +17,8 @@ class Author
     posting = Post.new(name)
     posting.author = self
   end
+  
+  def self.post_count
+    Post.all.count 
+  end
 end
